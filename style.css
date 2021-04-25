@@ -708,6 +708,10 @@ span.teleLogoHolder {
     .section2Col2>p {
         margin-left: 1%;
     }
+    .headerLogos {
+        margin-top: -16%;
+        display: none;
+    }
     p.col2Description1 {
         font-size: 0.795rem;
     }
@@ -835,8 +839,7 @@ span.teleLogoHolder {
         width: 80vw;
     }
     .section5Col2Image1Respo {
-        margin-left: 5rem;
-        width: 40vw;
+        width: 60vw;
         display: block;
     }
     .section5Col1col2Description1 {
@@ -848,9 +851,6 @@ span.teleLogoHolder {
     .section5Col1Header3 {
         font-size: 1rem;
     }
-    .section5Col2Header1 {
-        margin-left: 5rem;
-    }
     .section8RowRespo {
         display: flex;
         flex-direction: column-reverse;
@@ -858,8 +858,19 @@ span.teleLogoHolder {
     .section8Col2Image {
         height: 30vh;
         width: 85vw;
+        margin-left: 2rem;
     }
     .section8Col1 h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+    .section8Col1 {
+        margin-left: 2rem;
+    }
+    .section6Row2Col2 {
+        padding: 0;
+    }
+    div.p-2.bd-highlight.section7Image1 {
+        width: 60vw;
+        margin-left: 0;
     }
 }
