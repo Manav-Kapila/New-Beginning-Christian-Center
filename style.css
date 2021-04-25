@@ -785,3 +785,81 @@ span.teleLogoHolder {
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .section2Col2Respo1 {
+        padding-left: 2rem;
+        z-index: 10;
+    }
+    .section2Col2Respo2 {
+        z-index: 2;
+    }
+    .section2Col2SubCol2Respo {
+        font-size: 1rem;
+    }
+    .col-2.logoDescription2 {
+        padding-left: 5rem;
+    }
+    .section3RowRespo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section3RHSImageRespo {
+        margin-top: 15rem;
+        width: 70vw;
+        height: 30vh;
+        margin-left: 2rem;
+    }
+    .section4ImageRespo {
+        margin: 1rem;
+        width: 95vw;
+        height: 20vh;
+    }
+    .section4TextWrapperRespo {
+        margin-left: 5rem;
+        margin-top: -8rem;
+        width: 75%;
+    }
+    .col2Header1section4,
+    .col2Header2section4 {
+        font-size: 0.75rem;
+    }
+    .col2Description1section4 {
+        font-size: 0.5rem;
+    }
+    button.section3Btn {
+        margin-left: 5rem;
+        font-size: 0.75rem;
+    }
+    .section5Col1Image1Respo {
+        width: 80vw;
+    }
+    .section5Col2Image1Respo {
+        margin-left: 5rem;
+        width: 40vw;
+        display: block;
+    }
+    .section5Col1col2Description1 {
+        margin-left: -0.5rem;
+    }
+    .section5Col1Header1 {
+        font-size: 1.5rem;
+    }
+    .section5Col1Header3 {
+        font-size: 1rem;
+    }
+    .section5Col2Header1 {
+        margin-left: 5rem;
+    }
+    .section8RowRespo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section8Col2Image {
+        height: 30vh;
+        width: 85vw;
+    }
+    .section8Col1 h3 {
+        font-size: 2rem;
+    }
+}
